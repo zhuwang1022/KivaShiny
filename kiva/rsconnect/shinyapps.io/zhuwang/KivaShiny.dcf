@@ -1,0 +1,12 @@
+name: KivaShiny
+title: KivaShiny
+username:
+account: zhuwang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1385845
+bundleId: 2541086
+url: https://zhuwang.shinyapps.io/KivaShiny/
+when: 1572193885.08824
+asMultiple: FALSE
+asStatic: FALSE
