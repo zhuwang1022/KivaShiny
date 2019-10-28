@@ -89,7 +89,7 @@ shinyUI(dashboardPage(skin="blue",
                                 ),
 
                 fluidRow(column(4,sliderInput("slider1", label = "Choose Range", min = 0, 
-                            max = 1e5, value = c(2000, 10000))),
+                            max = 50000, value = c(2000, 10000))),
                 column(4,sliderInput("slider3", label="Choose Frequency",min=0,
                             max=0.001,value=c(0,0.0002))),
                 column(4,sliderInput("slider2", label="Choose Binwidth",min=0,
