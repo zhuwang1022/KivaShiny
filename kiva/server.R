@@ -136,7 +136,7 @@ shinyServer(function(input,output){
       scale_color_manual(values=c("#E69F00","#56B4E9","#999999"))+
       scale_fill_manual(values=c("#E69F00","#56B4E9","#999999"))+
       theme_bw()+
-      labs(x="Loan Amount",y="",title="Loan Amount",fill="Gender")+
+      labs(x="Unfunded Amount",y="",title="Unfunded Distribution",fill="Gender")+
       theme(plot.title = element_text(hjust = 0.5,size=16))+
       guides(color=F, fill = guide_legend("Gender"))
     
